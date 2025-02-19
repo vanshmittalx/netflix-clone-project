@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("assets/images/bg1.jpg");
+  background-position: center center fixed;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 95vh;
+  position: relative;
+}
+.main .box {
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.74;
+    position: absolute;
+    top: 0;
+}
+nav {
+    max-width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+    color: red;
+    width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  gap: 17px;
+  padding: 30px;
+}
+.hero > :first-child {
+    font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+    font-weight: 400;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.hero > :nth-child(4) {
+    font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+.section-one{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    top: -60px;
+    margin-top: 0px;
+    border-top: 7px solid rgb(195, 54, 54);
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+    overflow: hidden;
+}
+.light-drop{
+    height: 17vh;
+    width: 60vw;
+    background: linear-gradient(to bottom, rgba(13, 22, 41, 0.9), rgba(0, 0, 0, 1));
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20%;
+    top: -7vh;
+    border-bottom:7px solid black;
+    border-radius: 50%;
+    
+    
+}
+.btn{
+    padding: 0px 23px;
+    height: 3em;
+    background-color: black;
+    background: transparent;
+    color: white;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.btn-red{
+    padding: 0px 10px;
+    color: white;
+    background-color: red;
+    border: 0.5px solid red;
+}
+.btn-red:hover{
+    background-color: rgb(194, 26, 26);
+    box-shadow: 0px 0px 10px red !important;
+}
+.btn:{
+    border: 40px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.trending-images{
+    display: flex;
+    position: relative;
+    left: 10%;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.cards{
+    display: flex;
+    position: absolute;
+}
+.card{
+    display: flex;
+    /* border: 2px solid white; */
+    /* border-radius: 50; */
+    margin: 10vh;
+    justify-content: space-between;
+    position:relative;
+    padding: auto;
+    height: 50vh;
+    width: 18vw;
+    /* background-color: red; */
+    left: 30%;
+    cursor: pointer;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4%;
+}
+.card:hover{
+    scale: 105%;
+}
