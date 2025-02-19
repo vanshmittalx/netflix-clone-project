@@ -118,6 +118,7 @@ nav button {
   }
 
 .btn{
+  font-weight: bold;
     padding: 0px 23px;
     height: 3em;
     background-color: black;
