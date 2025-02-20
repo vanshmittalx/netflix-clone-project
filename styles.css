@@ -20,12 +20,7 @@ body {
   height: 95vh;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  .main{
-    background-repeat: repeat;
-  }
   
-}
 
 .main .box {
     height: 95vh;
