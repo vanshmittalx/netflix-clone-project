@@ -164,6 +164,7 @@ nav button {
   }
 
   .card{
+    transition: all 0.25s ease-in-out;
     display: flex;
     margin: 5vh;
     justify-content: space-between;
@@ -212,7 +213,7 @@ nav button {
   width: 15vw;
   left: 5%;
   border-radius: 20px;
-  cursor: pointer;
+  cursor: default;
 }
 
 .cardset-2 h3{
